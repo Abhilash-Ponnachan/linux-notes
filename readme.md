@@ -53,4 +53,7 @@ Swap:       8283132           0     8283132
 
 ## Navigating the File System
 -----------------------------
-Let 
+Like _Windows_ and _Unix_ the files in _Linux_ are organized in a hierarchical inverted-tree structure with the _root_ (`/`) at the top and files organized in directories.  
+Unlike _Windows_ however which has a separate file-system tree for each storage device (or partition), in _Linux_ (and _Unix_) there is only a single 'file-system tree' and the different storages are attached (or _mounted_) at desired locations. Technically storage devices can be mounted anywhere in the tree, bit by convetion it is typically mounted in `mnt` or `media`.
+
+### Commands to Navigate the file-system
